@@ -11,9 +11,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class test {
+public class UI_StepDefinition {
     WebDriver driver = null;
-    private static final Logger LOG = Logger.getLogger(test.class);
+    private static final Logger LOG = Logger.getLogger(UI_StepDefinition.class);
 
     @Given("User launch browser and navigates to {string}")
     public void user_launch_browser_and_navigates_to(String url) {
